@@ -1,0 +1,66 @@
+body {
+    background: url(assets/background2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.noface {
+    height: 100px;
+    width: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.L {
+    text-align: right;
+}
+
+.R {
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.header {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#root {
+    width: 900px;
+    margin: 0 auto;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.card {
+    margin: 1rem;
+    border: 5px solid rgb(218, 155, 211);
+    border-radius: 15px;
+    background-color: rgba(218, 155, 211, 0.797);
+    padding: 0px 15px;
+}
+
+.descr {
+    font-weight: bold;
+    line-height: 0;
+}
+
+
+
